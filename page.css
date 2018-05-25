@@ -1,4 +1,4 @@
-.container {
+body {
     position: absolute;
     bottom: 0;
     top: 0;
@@ -10,9 +10,9 @@
     align-items: center;
   }
   
-  .container-2 {
-    width: 40%;
-    height: 90%;
+  .container {
+    width: 400px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
