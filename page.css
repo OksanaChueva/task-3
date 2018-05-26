@@ -34,7 +34,7 @@ body {
   
   img {
     width: 25px;
-    margin: 0;
+    margin: 5px;
   }
   
   .inner-in-blocks {
@@ -58,6 +58,6 @@ body {
   
   
   .block-5 {
-    padding: 0 0 0 200px;
+    padding: 0 0 0 100px;
   
   }
