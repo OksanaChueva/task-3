@@ -2,62 +2,93 @@ body {
     background-color: rgb(18, 18, 53);
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  
-  .container {
-    width: 900px;
+    align-content: center;
+}
+
+.container {
+    width: 1200px;
     height: 2400px;
+    margin: 80px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-  }
-  
-  .top {
-    width: 900px;
+}
+
+.top {
+    width: 1000px;
     height: 100px;
     background-color: rgb(59, 59, 124);
     border-radius: 10px;
-    margin: 5px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.area-start {
+    display: flex;
+    align-content: center;
     justify-content: flex-start;
-  }
-  
-  .block-1,
-  .block-2,
-  .block-3,
-  .block-4,
-  .block-5 {
-    margin: 30px;
-    }
-  
-  img {
+}
+
+.area-end {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.icon img {
     width: 25px;
-    margin: 5px;
-  }
-  
-  .inner-in-blocks {
+    height: 25px;
+    margin: 0 15px 0 15px;
+}
+
+.inner-in-blocks {
     font-size: 15px;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium';
     color: rgb(185, 174, 174);
-  }
-  
-  .block-1:hover,
-  .block-2:hover,
-  .block-3:hover,
-  .block-4:hover,
-  .block-5:hover {
+    padding: 0 20px;
+}
+
+.center-items {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.block:hover {
     background-color: rgb(99, 99, 148);
-    border-bottom: 2px solid aqua;
+    box-shadow: inset 0 -2px aqua;
     border-radius: 5px;
-    height: 98px;
-    line-height: 98px;
-  }
-  
-  
-  .block-5 {
-    padding: 0 0 0 100px;
-  
-  }
+    cursor: pointer;
+    height: 100px;
+    line-height: 100px;
+}
+
+.picture-top img {
+    width: 40px;
+    height: 40px;
+    margin: 0 30px 0px 0;
+}
+
+.messages {
+    width: 20px;
+    height: 20px;
+}
+
+.circle-red {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(185, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    line-height: 20px;
+}
+
+.five {
+    font-size: 15px;
+}
+
