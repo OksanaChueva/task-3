@@ -48,6 +48,7 @@ body {
     font-family: 'Franklin Gothic Medium';
     color: rgb(185, 174, 174);
     padding: 0 20px;
+    height: 100px;
 }
 
 .center-items {
@@ -62,7 +63,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     height: 100px;
-    line-height: 100px;
 }
 
 .picture-top img {
