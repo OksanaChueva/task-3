@@ -1,0 +1,75 @@
+.subscribe {
+  width: 280px;
+  height: 210px;
+  margin: 0 0 0 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.area-join {
+  display: flex;
+  align-items: flex-end;
+}
+
+.outline {
+  color: rgb(241, 233, 233);
+  height: 45px;
+}
+
+button {
+  width: 160px;
+  border-radius: 2px;
+}
+
+.button-aqua {
+  background-color: rgb(9, 206, 206);
+  border: 2px solid rgb(9, 206, 206) ;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.area-subs {
+  height: 60px;
+}
+
+input {
+  border: 2px solid rgb(41, 41, 65);
+  background-color: rgb(99, 99, 148);
+  width: 245px;
+  height: 40px;
+}
+
+input:hover {
+  border: 2px solid aqua;
+  color: white;
+}
+
+.facebook {
+  width: 280px;
+  background-color: rgb(19, 124, 194);
+  
+}
+
+.sign-in {
+  height: 360px;
+  width: 280px;
+  margin: 20px 0 0 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-red {
+  background-color: brown;
+  border: 2px solid brown;
+}
+
+.area-sign {
+  display: flex;
+  align-items: center;
+}
+
+.icon-fb img {
+  margin: 0 10px 0 0;
+}

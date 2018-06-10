@@ -1,27 +1,17 @@
 body {
     background-color: rgb(18, 18, 53);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-}
-
-.container {
-    width: 1200px;
-    height: 2400px;
-    margin: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .top {
-    width: 1000px;
-    height: 100px;
-    background-color: rgb(59, 59, 124);
-    border-radius: 10px;
-    display: flex;
+    width: 880px;
+    height: 75px;
+    border-radius: 5px;
+    margin-top: 50px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .area-start {
@@ -37,18 +27,15 @@ body {
 }
 
 .icon img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin: 0 15px 0 15px;
 }
 
 .inner-in-blocks {
     font-size: 15px;
-    font-weight: normal;
-    font-family: 'Franklin Gothic Medium';
-    color: rgb(185, 174, 174);
     padding: 0 20px;
-    height: 100px;
+    height: 75px;
 }
 
 .center-items {
@@ -62,7 +49,7 @@ body {
     box-shadow: inset 0 -2px aqua;
     border-radius: 5px;
     cursor: pointer;
-    height: 100px;
+    height: 75px;
 }
 
 .picture-top img {
@@ -71,24 +58,13 @@ body {
     margin: 0 30px 0px 0;
 }
 
-.messages {
-    width: 20px;
-    height: 20px;
-}
-
 .circle-red {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background: rgb(185, 9, 9);
     display: flex;
-    align-items: center;
-    justify-content: center;
     align-self: flex-start;
     line-height: 20px;
-}
-
-.five {
-    font-size: 15px;
 }
 

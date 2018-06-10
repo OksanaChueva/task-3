@@ -7,37 +7,117 @@
     <title>rainbow</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="first-container.css">
+    <link rel="stylesheet" href="second-container.css">
+    <link rel="stylesheet" href="third-container.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="top">
-            <div class="area-start">
-                <div class="block icon inner-in-blocks center-items">
-                    <img src="https://www.iconsdb.com/icons/preview/gray/gear-2-xxl.png"> Setting </div>
-                <div class="block icon inner-in-blocks center-items">
-                    <img src="https://www.iconsdb.com/icons/preview/gray/contacts-xxl.png"> Account </div>
-                <div class="block icon inner-in-blocks center-items">
-                    <div class="center-items">
-                        <img src="https://www.iconsdb.com/icons/preview/gray/message-xxl.png"> Messages
-                        <div class="circle-red center-items">
-                            <div class="five">5</div>
-                        </div>
+    <div class="top flex-between fon-color">
+        <div class="area-start">
+            <div class="block icon inner-in-blocks grey-font outline-color center-items">
+                <img src="https://www.iconsdb.com/icons/preview/gray/gear-2-xxl.png"> Setting </div>
+            <div class="block icon inner-in-blocks grey-font outline-color center-items">
+                <img src="https://www.iconsdb.com/icons/preview/gray/contacts-xxl.png"> Account </div>
+            <div class="block icon inner-in-blocks grey-font outline-color center-items">
+                <div class="center-items">
+                    <img src="https://www.iconsdb.com/icons/preview/gray/message-xxl.png"> Messages
+                    <div class="circle-red flex-center">
+                        <div class="size">5</div>
                     </div>
                 </div>
-                <div class="block icon inner-in-blocks center-items">
-                    <img src="https://www.iconsdb.com/icons/preview/gray/star-7-xxl.png"> Favorites </div>
             </div>
-            <div class="area-end">
-                <div class="block icon inner-in-blocks center-items"> Me
-                    <img src="https://www.iconsdb.com/icons/preview/gray/check-mark-6-xxl.png"> </div>
-                <div class="picture-top center-items">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNBAokdaDxOFue2Qf6oLUUKXlW1CVE7dCIKMZ75yB3aV_D4KN_g">
-                </div>
+            <div class="block icon inner-in-blocks grey-font outline-color center-items">
+                <img src="https://www.iconsdb.com/icons/preview/gray/star-7-xxl.png"> Favorites
+            </div>
+        </div>
+        <div class="area-end">
+            <div class="block icon inner-in-blocks grey-font outline-color center-items"> Me
+                <img src="https://www.iconsdb.com/icons/preview/gray/check-mark-6-xxl.png"> </div>
+            <div class="picture-top center-items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNBAokdaDxOFue2Qf6oLUUKXlW1CVE7dCIKMZ75yB3aV_D4KN_g">
             </div>
         </div>
     </div>
+    <div class="wrap">
+        <div class="first-container">
+            <div class="menu area-start flex-column radius fon-color ">
+                <div class="menu-box flex-center border-top white-bold"> MENU BOX </div>
+                <div class="messages flex-around-justify">
+                    <div class="common-mes flex-center">
+                        <div class="icon-first-container">
+                            <img src="https://www.iconsdb.com/icons/preview/gray/message-xxl.png"> </div>
+                        <div class="white-normal"> Messages</div>
+                    </div>
 
+                    <div class="oval grey-color flex-center">
+                        <div class="white-normal 24">24</div>
+                    </div>
+                </div>
+                <div class="invites flex-around-justify">
+                    <div class="common-area flex-center">
+                        <div class="icon-inv">
+                            <img src="https://cdn.icon-icons.com/icons2/491/PNG/512/airplane_48179.png"> </div>
+                        <div class="white-normal"> Invites</div>
+                    </div>
+                    <div class="oval grey-color flex-center">
+                        <div class="white-normal 3">3</div>
+                    </div>
+                </div>
+                <div class="events flex-around-justify">
+                    <div class="common-area flex-center">
+                        <div class="icon-first-container">
+                            <img src="http://www.iconninja.com/files/54/160/55/calendar-icon.png"> </div>
+                        <div class="white-normal">Events</div>
+                    </div>
+                    <div class="oval grey-color flex-center">
+                        <div class="white-normal 5">5</div>
+                    </div>
+                </div>
+                <div class="common-acc account flex-around">
+                    <div class="icon-first-container">
+                        <img src="https://www.iconsdb.com/icons/preview/gray/gear-2-xxl.png"> </div>
+                    <div class="white-normal"> Account Settings</div>
+                </div>
+                <div class="common-acc statistics flex-around">
+                    <div class="icon-first-container">
+                        <img src="https://cdn4.iconfinder.com/data/icons/files-statistics-solid-style/24/file-statistic-subtract--512.png"> </div>
+                    <div class="white-normal"> Statistics</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="second-container">
+            <div class="foto fon-color radius"> </div>
+            <div class="weather"> </div>
+        </div>
+        <div class="third-container flex-center flex-column">
+            <div class="subscribe flex-center flex-column radius fon-color">
+                <div class="area-join outline white-bold size"> JOIN THE NEWSLETTER </div>
+                <div class="input size">
+                    <input type="text" value="yourname@gmail.com" class="radius font-bold outline-color">
+                </div>
+                <div class="area-subs">
+                    <button class="outline white-bold outline-color size button-aqua"> SUBSCRIBE </button>
+                </div>
+            </div>
+            <div class="sign-in flex-center flex-column fon-color radius">
+                <div class="sign outline white-bold area-join size"> SIGN IN TO YOUR ACCOUNT </div>
+                <div class="input">
+                    <input type="text" value="yourname@gmail.com" class="radius font-bold outline-color">
+                </div>
+                <div>
+                    <input type="text" value="Password" class="radius font-bold outline-color">
+                </div>
+                <div>
+                    <button class="outline white-bold button-red size"> SIGN IN </button>
+                </div>
+                <div class="grey-font outline-color">Forgot Password?</div>
+                <div class="outline white-normal icon-fb icon facebook border-bottom flex-center">
+                    <img src="https://www.iconsdb.com/icons/preview/black/facebook-5-xxl.png"> Sign in with Facebook</div>
+            </div>
+        </div>
 </body>
 
 
